@@ -13,22 +13,21 @@ module.exports ={
 					is_current_prime = false;
 
 				}
+			}
+
+			if (is_current_prime === true){
+
+				array_of_prime.push(counter1);
+
+			}
+
 		}
-
-		if (is_current_prime === true){
-
-			array_of_prime.push(counter1);
-
-		}
-
-
-		
 
 		return array_of_prime
 
-	}
-
 }
+
+
 
 
 
